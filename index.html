@@ -361,7 +361,7 @@ hr {
     font-style: italic;
     opacity: 0.15;
 
-    filter: blur(1px);
+    filter: blur(0.7px);
 
     text-align: center;
 
@@ -518,9 +518,9 @@ meter::-webkit-meter-even-less-good-value {
    ===================================== */
 
 #passages {
-    max-width: 800px;
+    max-width: 750px;
     margin: 0 auto;
-    padding: 1em;
+    padding: 0 1rem;
 }
 
 body {
@@ -540,6 +540,11 @@ body {
         font-size: 0.9em;
     }
 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .li-name {
@@ -1411,7 +1416,8 @@ You place your suitcase on the bed and begin unpacking. Among your belongings is
 [[Next-&gt;Prologue 2]]
 &lt;&lt;nobr&gt;&gt;
 &lt;&lt;include &quot;Character Setup&quot;&gt;&gt;
-&lt;&lt;/nobr&gt;&gt;</tw-passagedata><tw-passagedata pid="22" name="bedroom" tags="" position="825,200" size="100,100">The room is surprisingly tidy.
+&lt;&lt;/nobr&gt;&gt;
+</tw-passagedata><tw-passagedata pid="22" name="bedroom" tags="" position="825,200" size="100,100">The room is surprisingly tidy.
 
 The space is evenly divided between you and $rileyName, each side clearly belonging to its respective owner. Your bed is unmade, blankets carelessly scattered across the mattress. In contrast, $rileyName&#39;s bed looks almost untouched, perfectly made and impeccably organized.
 
@@ -1432,16 +1438,20 @@ $rileyName is busy reading a book, seemingly oblivious to your presence.
 
 [[Chat (00:15)-&gt;Talk to Riley][$flavorText = &quot;Riley&#39;s voice is soft; if you don&#39;t pay close enough attention, you might not hear it.&quot;]] | @@.excellent;↑ Deviation ↑@@
 
-[[Main Hall][$flavorText = &quot;Various noises come from each door, you can even hear conversations you shouldn&#39;t, you just hope yours isn&#39;t as unprivate as the rest, unlikely.&quot;]]</tw-passagedata><tw-passagedata pid="23" name="Bed" tags="" position="575,225" size="100,100">[[Back-&gt;bedroom]] 
+[[Main Hall][$flavorText = &quot;Various noises come from each door, you can even hear conversations you shouldn&#39;t, you just hope yours isn&#39;t as unprivate as the rest, unlikely.&quot;]]
+</tw-passagedata><tw-passagedata pid="23" name="Bed" tags="" position="575,225" size="100,100">[[Back-&gt;bedroom]] 
 
-WIP... lo recordare eventualmente kyaaa</tw-passagedata><tw-passagedata pid="24" name="Closet" tags="" position="675,325" size="100,100">[[Back-&gt;bedroom]] 
+WIP... lo recordare eventualmente kyaaa
+</tw-passagedata><tw-passagedata pid="24" name="Closet" tags="" position="675,325" size="100,100">[[Back-&gt;bedroom]] 
 
 Ni si quiera hay diseno de MC, el MC q hay es el de Yun, t quiero Yun</tw-passagedata><tw-passagedata pid="25" name="Bathroom" tags="" position="675,225" size="100,100">A fairly standard bathroom, a small shower, a toilet, and not a single stain in sight.
 
 
-[[Back-&gt;bedroom]] </tw-passagedata><tw-passagedata pid="26" name="Snack Stash" tags="" position="575,325" size="100,100">[[Back-&gt;bedroom]] 
+[[Back-&gt;bedroom]] 
+</tw-passagedata><tw-passagedata pid="26" name="Snack Stash" tags="" position="575,325" size="100,100">[[Back-&gt;bedroom]] 
 
-WIP, EVENTUALMENTE HARE ESTO JEJE</tw-passagedata><tw-passagedata pid="27" name="Talk to Riley" tags="" position="650,425" size="100,100">&lt;&lt;silently&gt;&gt;
+WIP, EVENTUALMENTE HARE ESTO JEJE
+</tw-passagedata><tw-passagedata pid="27" name="Talk to Riley" tags="" position="650,425" size="100,100">&lt;&lt;silently&gt;&gt;
 &lt;&lt;set _random = random(1,5)&gt;&gt;
 &lt;&lt;/silently&gt;&gt;
 
@@ -1553,7 +1563,7 @@ Walk to:
 [[Hospital Street-&gt;Hospital Street][$flavorText = &quot;Placeholder.&quot;]]
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
-    &lt;img src=&quot;images/map.jpg&quot; width=&quot;600&quot;&gt;
+    &lt;img src=&quot;images/map.png&quot; width=&quot;600&quot;&gt;
 &lt;/div&gt;
 
 MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="31" name="Main Hall" tags="" position="825,300" size="100,100">A long hallway filled with various doors, some decorated, others not. Yours and Riley&#39;s is right at the end.
@@ -1562,10 +1572,12 @@ MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="31" name="Main Hall" 
 [[Laundry Room][$flavorText = &quot;You have no clothes to wash, you have no real reason to be here.&quot;]]
 
 
-[[Leave the residence-&gt;Nice Street][$flavorText = &quot;You haven&#39;t quite gotten used to it here yet, but it&#39;s not entirely unpleasant. You think you&#39;re lucky.&quot;]]</tw-passagedata><tw-passagedata pid="32" name="Laundry Room" tags="" position="925,225" size="100,100">Rows and rows of washing machines. Some students are reading or listening with headphones while they wait for their clothes to be washed. The artificial light flickers every few minutes.
+[[Leave the residence-&gt;Nice Street][$flavorText = &quot;You haven&#39;t quite gotten used to it here yet, but it&#39;s not entirely unpleasant. You think you&#39;re lucky.&quot;]]
+</tw-passagedata><tw-passagedata pid="32" name="Laundry Room" tags="" position="925,225" size="100,100">Rows and rows of washing machines. Some students are reading or listening with headphones while they wait for their clothes to be washed. The artificial light flickers every few minutes.
 
 
-[[Main Hall][$flavorText = &quot;Various noises come from each door, you can even hear conversations you shouldn&#39;t, you just hope yours isn&#39;t as unprivate as the rest, unlikely.&quot;]]</tw-passagedata><tw-passagedata pid="33" name="Hospital Street" tags="" position="1375,475" size="100,100">People are coming in and out of the hospital.
+[[Main Hall][$flavorText = &quot;Various noises come from each door, you can even hear conversations you shouldn&#39;t, you just hope yours isn&#39;t as unprivate as the rest, unlikely.&quot;]]
+</tw-passagedata><tw-passagedata pid="33" name="Hospital Street" tags="" position="1375,475" size="100,100">People are coming in and out of the hospital.
 
 [[Hospital][$flavorText = &quot;The smell of antiseptics fills your lungs, the atmosphere here is hectic and everyone looks very busy.&quot;]]
 
@@ -1598,7 +1610,7 @@ Their monotonous voice makes you shake your head.
 
 Walk to:
 [[Hospital Street-&gt;Hospital Street][$flavorText = &quot;PLACEHOLDER.&quot;]]
-[[Mall Street -&gt; Mall][$flavorText = &quot;Placeholder again bcs im lazy&quot;]]
+[[Mall Street -&gt;Mall][$flavorText = &quot;Placeholder again bcs im lazy&quot;]]
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
     &lt;img src=&quot;images/map.png&quot; width=&quot;600&quot;&gt;
@@ -1612,14 +1624,14 @@ MAPA PROVISIONAL YASS </tw-passagedata><tw-passagedata pid="36" name="School" ta
 
 Walk to:
 [[Hospital Street-&gt;Hospital Street][$flavorText = &quot;The sound of the birds is pleasant.&quot;]]
-[[Mall Street -&gt; Mall][$flavorText = &quot;Placeholder again bcs im lazy&quot;]]
-[[Brothel Street -&gt; Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]
+[[Mall Street -&gt;Mall][$flavorText = &quot;Placeholder again bcs im lazy&quot;]]
+[[Brothel Street -&gt;Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
     &lt;img src=&quot;images/map.png&quot; width=&quot;600&quot;&gt;
 &lt;/div&gt;
 
-MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="38" name=" Mall" tags="" position="1550,325" size="100,100">All the shops are closed, maybe they&#39;ll open tomorrow? You don&#39;t have any money anyway.
+MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="38" name="Mall" tags="" position="1550,325" size="100,100">All the shops are closed, maybe they&#39;ll open tomorrow? You don&#39;t have any money anyway.
 
 
 Walk to:
@@ -1634,18 +1646,18 @@ Walk to:
 MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="39" name="Ugly Street" tags="" position="1550,175" size="100,100">Most of the houses look humble, some have broken windows, and dangerous-looking people give you nasty looks.
 
 Walk to:
-[[Mall Street -&gt; Mall][$flavorText = &quot;Placeholder again bcs im lazy&quot;]]
-[[Brothel Street -&gt; Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]
+[[Mall Street -&gt;Mall][$flavorText = &quot;Placeholder again bcs im lazy&quot;]]
+[[Brothel Street -&gt;Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
     &lt;img src=&quot;images/map.png&quot; width=&quot;600&quot;&gt;
 &lt;/div&gt;
 
-MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="40" name=" Brothel Street" tags="" position="1375,175" size="100,100">The brothel is open during the day for some reason; finally something good in this fucking city.
+MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="40" name="Brothel Street" tags="" position="1375,175" size="100,100">The brothel is open during the day for some reason; finally something good in this fucking city.
 
 
-[[Brothel -&gt; Brothel][$flavoredText = &quot;Desearias no ser menor coded ahora mismo&quot;]]
-[[Bar -&gt; Bar][$flavoredText = &quot;Desearias no ser menor coded ahora mismo&quot;]]
+[[Brothel -&gt;Brothel][$flavoredText = &quot;Desearias no ser menor coded ahora mismo&quot;]]
+[[Bar -&gt;Bar][$flavoredText = &quot;Desearias no ser menor coded ahora mismo&quot;]]
 
 
 Walk to:
@@ -1656,21 +1668,21 @@ Walk to:
     &lt;img src=&quot;images/map.png&quot; width=&quot;600&quot;&gt;
 &lt;/div&gt;
 
-MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="41" name=" Brothel" tags="" position="1300,25" size="100,100">The doorman looks you up and down.
+MAPA PROVISIONAL YASS</tw-passagedata><tw-passagedata pid="41" name="Brothel" tags="" position="1300,25" size="100,100">The doorman looks you up and down.
 
 &quot;We don&#39;t accept minors. Bring your ID or you won&#39;t get in.&quot;
 
 Aw shucks...
 
 
-[[Back off -&gt; Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]</tw-passagedata><tw-passagedata pid="42" name=" Bar" tags="" position="1450,25" size="100,100">The doorman looks you up and down.
+[[Back off -&gt;Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]</tw-passagedata><tw-passagedata pid="42" name="Bar" tags="" position="1450,25" size="100,100">The doorman looks you up and down.
 
 &quot;We don&#39;t accept minors. Bring your ID or you won&#39;t get in.&quot;
 
 Aw shucks.
 
 
-[[Back off -&gt; Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]</tw-passagedata><tw-passagedata pid="43" name="Police Station" tags="" position="1250,625" size="100,100">The police officer behind the counter seems too busy to acknowledge your arrival. After a few minutes, he looks up and glances at you with disinterest behind his sunglasses.
+[[Back off -&gt;Brothel Street][$flavorText = &quot;No lo he terminado xd&quot;]]</tw-passagedata><tw-passagedata pid="43" name="Police Station" tags="" position="1250,625" size="100,100">The police officer behind the counter seems too busy to acknowledge your arrival. After a few minutes, he looks up and glances at you with disinterest behind his sunglasses.
 
 &quot;I&#39;m kinda busy, sorry kiddo.&quot;
 
